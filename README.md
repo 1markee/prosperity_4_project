@@ -1,4 +1,4 @@
-Mark Wantuck and Michael Dirksen's awesome propserity 4 algorithmic trading bot, coded fully in Python!
+Marrkie's awesome propserity 4 algorithmic trading bot, coded fully in Python!
 
 --Big shouts to Claude!
 
