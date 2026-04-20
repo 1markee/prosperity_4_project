@@ -10,8 +10,8 @@ IPR = "INTARIAN_PEPPER_ROOT"   # trend product → max-long
 OSM = "ASH_COATED_OSMIUM"      # mean-revert   → MM around 10,000
 
 # ── OSM base MM (Tier 1, tuned) ───────────────────────────────────────────────
-OSM_BID_OFFSET             = 3           # asymmetric: wider bid curbs long pile-up on OSM's upward micro-drift
-OSM_ASK_OFFSET             = 1
+OSM_BID_OFFSET             = 3           # asymmetric 3/5 — live shows OSM buys earn ~2× sells per fill; wider ask captures the drift asymmetry by selling less often but at much better prices
+OSM_ASK_OFFSET             = 5
 OSM_PASSIVE_SIZE           = 10
 OSM_MAX_SKEW_TICKS         = 2           # softer inventory skew — let reversion work before unwinding
 # Lag-1 ACF bias: fair -= OSM_ACF_COEF × last_return. With Kalman absorbing
