@@ -1,4 +1,4 @@
-Marrkie's awesome propserity 4 algorithmic trading bot, coded fully in Python!
+Markie's awesome propserity 4 algorithmic trading bot, coded fully in Python!
 
 --Big shouts to Claude!
 
@@ -18,13 +18,13 @@ The "scripts" folder has all the .py and .ipynb files:
 Round 1 end date: April 16th 11:59pm
 
 
-Round 1 notes:\n
+Round 1 notes:
 - The weakest part was adaptability. The code uses no state, no learning across timestamps, no reaction to fills, and no deeper use of market trades or history. In practice:\n
 - the trend product was treated as “buy once and pray the drift persists”\n
 - the mean-reverter was treated as “quote around a fixed local fair and hope fills come”
 
 
-Improvement areas (ranked by expected impact)\n
+Improvement areas (ranked by expected impact)
 - Widen OSM offset 1 → 3/4/5 and backtest — likely highest ROI per line of code
 - Exploit lag-1 ACF via fair-value adjustment - free, novel, applies to both products
 - Asymmetric skew — fix the buy/sell edge gap
